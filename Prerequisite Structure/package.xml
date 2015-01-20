@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <Package name="Fractions_Adaptive_December2014" label="Fractions_Adaptive" description="Fractions_Adaptive">
+ 	 <Problems>
+ 	 	 <Problem name="naming_SM_problem1" label="whyNeedFractions_SM" selection_features="" description="whyNeedFractions_SM" problem_file="FractionsSenseMaking_Final_na_1.brd" student_interface="FractionsSenseMaking_Final_na_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="naming_SM_problem3" label="whyNeedFractions_SM" selection_features="" description="whyNeedFractions_SM" problem_file="FractionsSenseMaking_Final_na_3.brd" student_interface="FractionsSenseMaking_Final_na_3.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="naming_SM_problem5" label="making_SM_numberline" selection_features="whyNeedFractions_SM" description="making_SM_numberline" problem_file="FractionsSenseMaking_Final_na_5.brd" student_interface="FractionsSenseMaking_Final_na_5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="naming_SM_problem7" label="naming_SM_numberline" selection_features="whyNeedFractions_SM" description="naming_SM_numberline" problem_file="FractionsSenseMaking_Final_na_7.brd" student_interface="FractionsSenseMaking_Final_na_7.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="makingFractionsNL_IR_01watermelon" label="makingFractions_IR_numberline" selection_features="whyNeedFractions_SM" description="makingFractions_IR_numberline" problem_file="makingIdentifying_IR_01watermelon.brd" student_interface="makingIdentification_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="makingFractionsNL_IR_02watermelon" label="makingFractions_IR_numberline" selection_features="whyNeedFractions_SM" description="makingFractions_IR_numberline" problem_file="makingIdentifying_IR_02watermelon.brd" student_interface="makingIdentification_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="namingFractionsNL_IR_2-3_2-5" label="namingFractions_IR_numberline" selection_features="whyNeedFractions_SM" description="namingFractions_IR_numberline" problem_file="namingNL_IR_2-3_2-5_comp2.brd" student_interface="nameNL_comp2_3-5_3-7.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="namingFractionsNL_IR_3-5_3-7" label="namingFractions_IR_numberline" selection_features="whyNeedFractions_SM" description="namingFractions_IR_numberline" problem_file="namingNL_IR_3-5_3-7_comp2.brd" student_interface="nameNL_comp2_3-5_3-7.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="equivalentFractionsNL_IR_01_1" label="equivalentFractions_IR_numberline" selection_features="namingFractions_IR_numberline,makingFractions_IR_numberline,making_SM_numberline,naming_SM_numberline" description="equivalentFractions_IR_numberline" problem_file="equivalence_IR_01_1.brd" student_interface="equivalence_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="equivalentFractionsNL_IR_02_2" label="equivalentFractions_IR_numberline" selection_features="namingFractions_IR_numberline,makingFractions_IR_numberline,making_SM_numberline,naming_SM_numberline" description="equivalentFractions_IR_numberline" problem_file="equivalence_IR_02_2.brd" student_interface="equivalence_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_SM_problem1" label="addition_SM_numberline_sameDenom" selection_features="namingFractions_IR_numberline,makingFractions_IR_numberline,making_SM_numberline,naming_SM_numberline" description="addition_SM_numberline_sameDenom" problem_file="FractionsSenseMaking_Final_ad_1.brd" student_interface="FractionsSenseMaking_Final_ad_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="reducingFractions_SM_problem1" label="fractionReduction_SM_numberline_maxOneDivision" selection_features="equivalentFractions_IR_numberline" description="fractionReduction_SM" problem_file="FractionsSenseMaking_Final_re_1.brd" student_interface="FractionsSenseMaking_Final_re_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_SM_problem1" label="commonDenominator_SM_symbolic" selection_features="equivalentFractions_IR_numberline" description="commonDenominator_SM" problem_file="FractionsSenseMaking_Final_cd_1.brd" student_interface="FractionsSenseMaking_Final_cd_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_2-4" label="fractionReduction_IR_symbolic_maxOneDivision" selection_features="equivalentFractions_IR_numberline" description="fractionReduction_IR_symbolic_maxOneDivision" problem_file="fracReduce_2-4.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_2-6" label="fractionReduction_IR_symbolic_maxOneDivision" selection_features="equivalentFractions_IR_numberline" description="fractionReduction_IR_symbolic_maxOneDivision" problem_file="fracReduce_2-6.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_IR_4-3" label="commonDenominator_IR_symbolic" selection_features="commonDenominator_SM" description="commonDenominator_IR" problem_file="commonDenom_IR_4_3.brd" student_interface="common_denominator_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_IR_4-5" label="commonDenominator_IR_symbolic" selection_features="commonDenominator_SM" description="commonDenominator_IR" problem_file="commonDenom_IR_4_5.brd" student_interface="common_denominator_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_SM_problem2" label="addition_SM_numberline_diffDenom" selection_features="commonDenominator_SM,addition_SM_numberline_sameDenom" description="addition_SM_numberline_diffDenom" problem_file="FractionsSenseMaking_Final_ad_2.brd" student_interface="FractionsSenseMaking_Final_ad_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_IR_problem_1-6_2-3" label="addition_IR_symbolic_oneDenomMult" selection_features="fractionReduction_SM,commonDenominator_IR" description="addition_IR_symbolic_oneDenomMult" problem_file="T4-16plus23.brd" student_interface="FractAddition_T4andT5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_IR_problem_3-8_1-16" label="addition_IR_symbolic_oneDenomMult" selection_features="fractionReduction_SM,commonDenominator_IR" description="addition_IR_symbolic_oneDenomMult" problem_file="T4-38plus116.brd" student_interface="FractAddition_T4andT5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplicationScaffolded_IR_1-6_1-5" label="crossMultiplication_IR_symbolic_withVisualScaffolding" selection_features="commonDenominator_SM" description="crossMultiplication_IR_symbolic_withVisualScaffolding" problem_file="crossMultiplication_1-6_1-5.brd" student_interface="crossMultiplication_IR_scaffold.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplicationScaffolded_IR_2-3_5-8" label="crossMultiplication_IR_symbolic_withVisualScaffolding" selection_features="commonDenominator_SM" description="crossMultiplication_IR_symbolic_withVisualScaffolding" problem_file="crossMultiplication_2-3_5-8.brd" student_interface="crossMultiplication_IR_scaffold.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_SM_problem4" label="addition_SM_symbolic_withReducingLowestTerms" selection_features="addition_SM_numberline_sameDenom" description="addition_SM_symbolic_withReducingLowestTerms_sameDenom" problem_file="FractionsSenseMaking_Final_ad_4.brd" student_interface="FractionsSenseMaking_Final_ad_4.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem3" label="orderingEquivalence_SM_numberline_diffNumDiffDenomNotEquiv" selection_features="namingFractions_IR_numberline,makingFractions_IR_numberline,making_SM_numberline,naming_SM_numberline" description="orderingEquivalence_SM_numberline" problem_file="FractionsSenseMaking_Final_nl_3.brd" student_interface="FractionsSenseMaking_Final_nl_3.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="orderingFractionsNL_IR_01book" label="orderingFractions_IR_numberline" selection_features="namingFractions_IR_numberline,makingFractions_IR_numberline,making_SM_numberline,naming_SM_numberline" description="orderingFractions_IR_numberline" problem_file="ordering_IR_01book.brd" student_interface="ordering_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="orderingFractionsNL_IR_02cheese" label="orderingFractions_IR_numberline" selection_features="namingFractions_IR_numberline,makingFractions_IR_numberline,making_SM_numberline,naming_SM_numberline" description="orderingFractions_IR_numberline" problem_file="ordering_IR_02cheese.brd" student_interface="ordering_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_SM_problem3_duplicate1" label="addition_SM_symbolic_withReducing" selection_features="" description="" problem_file="FractionsSenseMaking_Final_ad_3.brd" student_interface="FractionsSenseMaking_Final_ad_3.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_SM_problem3_duplicate2" label="addition_SM_symbolic_withReducing" selection_features="" description="" problem_file="FractionsSenseMaking_Final_ad_3.brd" student_interface="FractionsSenseMaking_Final_ad_3.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_SM_problem3_duplicate3" label="addition_SM_symbolic_withReducing" selection_features="" description="" problem_file="FractionsSenseMaking_Final_ad_3.brd" student_interface="FractionsSenseMaking_Final_ad_3.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_SM_problem3_duplicate4" label="addition_SM_symbolic_withReducing" selection_features="" description="" problem_file="FractionsSenseMaking_Final_ad_3.brd" student_interface="FractionsSenseMaking_Final_ad_3.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_SM_problem3_duplicate5" label="addition_SM_symbolic_withReducing" selection_features="" description="" problem_file="FractionsSenseMaking_Final_ad_3.brd" student_interface="FractionsSenseMaking_Final_ad_3.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_SM_problem3_duplicate6" label="addition_SM_symbolic_withReducing" selection_features="" description="" problem_file="FractionsSenseMaking_Final_ad_3.brd" student_interface="FractionsSenseMaking_Final_ad_3.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_SM_problem3_duplicate7" label="addition_SM_symbolic_withReducing" selection_features="" description="" problem_file="FractionsSenseMaking_Final_ad_3.brd" student_interface="FractionsSenseMaking_Final_ad_3.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_SM_problem3_duplicate8" label="addition_SM_symbolic_withReducing" selection_features="" description="" problem_file="FractionsSenseMaking_Final_ad_3.brd" student_interface="FractionsSenseMaking_Final_ad_3.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_SM_problem3_duplicate9" label="addition_SM_symbolic_withReducing" selection_features="" description="" problem_file="FractionsSenseMaking_Final_ad_3.brd" student_interface="FractionsSenseMaking_Final_ad_3.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_SM_problem3_duplicate10" label="addition_SM_symbolic_withReducing" selection_features="" description="" problem_file="FractionsSenseMaking_Final_ad_3.brd" student_interface="FractionsSenseMaking_Final_ad_3.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_SM_problem3_duplicate11" label="addition_SM_symbolic_withReducing" selection_features="" description="" problem_file="FractionsSenseMaking_Final_ad_3.brd" student_interface="FractionsSenseMaking_Final_ad_3.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_SM_problem3_duplicate12" label="addition_SM_symbolic_withReducing" selection_features="" description="" problem_file="FractionsSenseMaking_Final_ad_3.brd" student_interface="FractionsSenseMaking_Final_ad_3.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_SM_problem3_duplicate13" label="addition_SM_symbolic_withReducing" selection_features="" description="" problem_file="FractionsSenseMaking_Final_ad_3.brd" student_interface="FractionsSenseMaking_Final_ad_3.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_SM_problem3_duplicate14" label="addition_SM_symbolic_withReducing" selection_features="" description="" problem_file="FractionsSenseMaking_Final_ad_3.brd" student_interface="FractionsSenseMaking_Final_ad_3.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate1" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_1.brd" student_interface="FractionsSenseMaking_Final_cm_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate2" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_1.brd" student_interface="FractionsSenseMaking_Final_cm_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate3" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_1.brd" student_interface="FractionsSenseMaking_Final_cm_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate4" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_1.brd" student_interface="FractionsSenseMaking_Final_cm_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate5" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_1.brd" student_interface="FractionsSenseMaking_Final_cm_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate6" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_1.brd" student_interface="FractionsSenseMaking_Final_cm_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate7" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_1.brd" student_interface="FractionsSenseMaking_Final_cm_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate8" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_1.brd" student_interface="FractionsSenseMaking_Final_cm_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate9" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_1.brd" student_interface="FractionsSenseMaking_Final_cm_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate10" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_1.brd" student_interface="FractionsSenseMaking_Final_cm_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate11" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_1.brd" student_interface="FractionsSenseMaking_Final_cm_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate12" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_1.brd" student_interface="FractionsSenseMaking_Final_cm_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate13" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_1.brd" student_interface="FractionsSenseMaking_Final_cm_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate14" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_1.brd" student_interface="FractionsSenseMaking_Final_cm_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate1" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_2.brd" student_interface="FractionsSenseMaking_Final_cm_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate2" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_2.brd" student_interface="FractionsSenseMaking_Final_cm_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate3" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_2.brd" student_interface="FractionsSenseMaking_Final_cm_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate4" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_2.brd" student_interface="FractionsSenseMaking_Final_cm_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate5" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_2.brd" student_interface="FractionsSenseMaking_Final_cm_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate6" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_2.brd" student_interface="FractionsSenseMaking_Final_cm_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate7" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_2.brd" student_interface="FractionsSenseMaking_Final_cm_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate8" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_2.brd" student_interface="FractionsSenseMaking_Final_cm_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate9" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_2.brd" student_interface="FractionsSenseMaking_Final_cm_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate10" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_2.brd" student_interface="FractionsSenseMaking_Final_cm_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate11" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_2.brd" student_interface="FractionsSenseMaking_Final_cm_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate12" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_2.brd" student_interface="FractionsSenseMaking_Final_cm_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate13" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_2.brd" student_interface="FractionsSenseMaking_Final_cm_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate14" label="crossMultiplication_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_cm_2.brd" student_interface="FractionsSenseMaking_Final_cm_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem5_duplicate1" label="orderingEquivalence_SM_numberline_diffNumSameDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_5.brd" student_interface="FractionsSenseMaking_Final_nl_5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem5_duplicate2" label="orderingEquivalence_SM_numberline_diffNumSameDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_5.brd" student_interface="FractionsSenseMaking_Final_nl_5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem5_duplicate3" label="orderingEquivalence_SM_numberline_diffNumSameDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_5.brd" student_interface="FractionsSenseMaking_Final_nl_5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem5_duplicate4" label="orderingEquivalence_SM_numberline_diffNumSameDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_5.brd" student_interface="FractionsSenseMaking_Final_nl_5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem5_duplicate5" label="orderingEquivalence_SM_numberline_diffNumSameDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_5.brd" student_interface="FractionsSenseMaking_Final_nl_5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem5_duplicate6" label="orderingEquivalence_SM_numberline_diffNumSameDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_5.brd" student_interface="FractionsSenseMaking_Final_nl_5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem5_duplicate7" label="orderingEquivalence_SM_numberline_diffNumSameDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_5.brd" student_interface="FractionsSenseMaking_Final_nl_5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem5_duplicate8" label="orderingEquivalence_SM_numberline_diffNumSameDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_5.brd" student_interface="FractionsSenseMaking_Final_nl_5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem5_duplicate9" label="orderingEquivalence_SM_numberline_diffNumSameDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_5.brd" student_interface="FractionsSenseMaking_Final_nl_5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem5_duplicate10" label="orderingEquivalence_SM_numberline_diffNumSameDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_5.brd" student_interface="FractionsSenseMaking_Final_nl_5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem5_duplicate11" label="orderingEquivalence_SM_numberline_diffNumSameDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_5.brd" student_interface="FractionsSenseMaking_Final_nl_5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem5_duplicate12" label="orderingEquivalence_SM_numberline_diffNumSameDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_5.brd" student_interface="FractionsSenseMaking_Final_nl_5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem5_duplicate13" label="orderingEquivalence_SM_numberline_diffNumSameDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_5.brd" student_interface="FractionsSenseMaking_Final_nl_5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem5_duplicate14" label="orderingEquivalence_SM_numberline_diffNumSameDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_5.brd" student_interface="FractionsSenseMaking_Final_nl_5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem6_duplicate1" label="orderingEquivalence_SM_numberline_sameNumDiffDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_6.brd" student_interface="FractionsSenseMaking_Final_nl_6.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem6_duplicate2" label="orderingEquivalence_SM_numberline_sameNumDiffDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_6.brd" student_interface="FractionsSenseMaking_Final_nl_6.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem6_duplicate3" label="orderingEquivalence_SM_numberline_sameNumDiffDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_6.brd" student_interface="FractionsSenseMaking_Final_nl_6.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem6_duplicate4" label="orderingEquivalence_SM_numberline_sameNumDiffDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_6.brd" student_interface="FractionsSenseMaking_Final_nl_6.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem6_duplicate5" label="orderingEquivalence_SM_numberline_sameNumDiffDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_6.brd" student_interface="FractionsSenseMaking_Final_nl_6.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem6_duplicate6" label="orderingEquivalence_SM_numberline_sameNumDiffDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_6.brd" student_interface="FractionsSenseMaking_Final_nl_6.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem6_duplicate7" label="orderingEquivalence_SM_numberline_sameNumDiffDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_6.brd" student_interface="FractionsSenseMaking_Final_nl_6.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem6_duplicate8" label="orderingEquivalence_SM_numberline_sameNumDiffDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_6.brd" student_interface="FractionsSenseMaking_Final_nl_6.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem6_duplicate9" label="orderingEquivalence_SM_numberline_sameNumDiffDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_6.brd" student_interface="FractionsSenseMaking_Final_nl_6.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem6_duplicate10" label="orderingEquivalence_SM_numberline_sameNumDiffDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_6.brd" student_interface="FractionsSenseMaking_Final_nl_6.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem6_duplicate11" label="orderingEquivalence_SM_numberline_sameNumDiffDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_6.brd" student_interface="FractionsSenseMaking_Final_nl_6.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem6_duplicate12" label="orderingEquivalence_SM_numberline_sameNumDiffDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_6.brd" student_interface="FractionsSenseMaking_Final_nl_6.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem6_duplicate13" label="orderingEquivalence_SM_numberline_sameNumDiffDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_6.brd" student_interface="FractionsSenseMaking_Final_nl_6.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem6_duplicate14" label="orderingEquivalence_SM_numberline_sameNumDiffDenomNotEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_6.brd" student_interface="FractionsSenseMaking_Final_nl_6.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="reducingFractions_SM_problem2_duplicate1" label="fractionReduction_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_re_2.brd" student_interface="FractionsSenseMaking_Final_re_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="reducingFractions_SM_problem2_duplicate2" label="fractionReduction_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_re_2.brd" student_interface="FractionsSenseMaking_Final_re_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="reducingFractions_SM_problem2_duplicate3" label="fractionReduction_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_re_2.brd" student_interface="FractionsSenseMaking_Final_re_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="reducingFractions_SM_problem2_duplicate4" label="fractionReduction_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_re_2.brd" student_interface="FractionsSenseMaking_Final_re_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="reducingFractions_SM_problem2_duplicate5" label="fractionReduction_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_re_2.brd" student_interface="FractionsSenseMaking_Final_re_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="reducingFractions_SM_problem2_duplicate6" label="fractionReduction_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_re_2.brd" student_interface="FractionsSenseMaking_Final_re_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="reducingFractions_SM_problem2_duplicate7" label="fractionReduction_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_re_2.brd" student_interface="FractionsSenseMaking_Final_re_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="reducingFractions_SM_problem2_duplicate8" label="fractionReduction_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_re_2.brd" student_interface="FractionsSenseMaking_Final_re_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="reducingFractions_SM_problem2_duplicate9" label="fractionReduction_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_re_2.brd" student_interface="FractionsSenseMaking_Final_re_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="reducingFractions_SM_problem2_duplicate10" label="fractionReduction_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_re_2.brd" student_interface="FractionsSenseMaking_Final_re_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="reducingFractions_SM_problem2_duplicate11" label="fractionReduction_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_re_2.brd" student_interface="FractionsSenseMaking_Final_re_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="reducingFractions_SM_problem2_duplicate12" label="fractionReduction_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_re_2.brd" student_interface="FractionsSenseMaking_Final_re_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="reducingFractions_SM_problem2_duplicate13" label="fractionReduction_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_re_2.brd" student_interface="FractionsSenseMaking_Final_re_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="reducingFractions_SM_problem2_duplicate14" label="fractionReduction_SM_symbolic" selection_features="" description="" problem_file="FractionsSenseMaking_Final_re_2.brd" student_interface="FractionsSenseMaking_Final_re_2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem1_duplicate1" label="orderingEquivalence_SM_numberline_diffNumDiffDenomEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_1.brd" student_interface="FractionsSenseMaking_Final_nl_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem1_duplicate2" label="orderingEquivalence_SM_numberline_diffNumDiffDenomEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_1.brd" student_interface="FractionsSenseMaking_Final_nl_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem1_duplicate3" label="orderingEquivalence_SM_numberline_diffNumDiffDenomEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_1.brd" student_interface="FractionsSenseMaking_Final_nl_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem1_duplicate4" label="orderingEquivalence_SM_numberline_diffNumDiffDenomEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_1.brd" student_interface="FractionsSenseMaking_Final_nl_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem1_duplicate5" label="orderingEquivalence_SM_numberline_diffNumDiffDenomEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_1.brd" student_interface="FractionsSenseMaking_Final_nl_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem1_duplicate6" label="orderingEquivalence_SM_numberline_diffNumDiffDenomEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_1.brd" student_interface="FractionsSenseMaking_Final_nl_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem1_duplicate7" label="orderingEquivalence_SM_numberline_diffNumDiffDenomEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_1.brd" student_interface="FractionsSenseMaking_Final_nl_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem1_duplicate8" label="orderingEquivalence_SM_numberline_diffNumDiffDenomEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_1.brd" student_interface="FractionsSenseMaking_Final_nl_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem1_duplicate9" label="orderingEquivalence_SM_numberline_diffNumDiffDenomEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_1.brd" student_interface="FractionsSenseMaking_Final_nl_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem1_duplicate10" label="orderingEquivalence_SM_numberline_diffNumDiffDenomEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_1.brd" student_interface="FractionsSenseMaking_Final_nl_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem1_duplicate11" label="orderingEquivalence_SM_numberline_diffNumDiffDenomEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_1.brd" student_interface="FractionsSenseMaking_Final_nl_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem1_duplicate12" label="orderingEquivalence_SM_numberline_diffNumDiffDenomEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_1.brd" student_interface="FractionsSenseMaking_Final_nl_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem1_duplicate13" label="orderingEquivalence_SM_numberline_diffNumDiffDenomEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_1.brd" student_interface="FractionsSenseMaking_Final_nl_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="numberLine_SM_problem1_duplicate14" label="orderingEquivalence_SM_numberline_diffNumDiffDenomEquiv" selection_features="" description="" problem_file="FractionsSenseMaking_Final_nl_1.brd" student_interface="FractionsSenseMaking_Final_nl_1.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="comparisonDrill_fluency_easy_duplicate1" label="order3fractions_fluency_symbolic_easy" selection_features="" description="" problem_file="comparisonOrderingFluency_easy.brd" student_interface="comparisonOrdering_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="comparisonDrill_fluency_easy_duplicate2" label="order3fractions_fluency_symbolic_easy" selection_features="" description="" problem_file="comparisonOrderingFluency_easy.brd" student_interface="comparisonOrdering_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="comparisonDrill_fluency_easy_duplicate3" label="order3fractions_fluency_symbolic_easy" selection_features="" description="" problem_file="comparisonOrderingFluency_easy.brd" student_interface="comparisonOrdering_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="comparisonDrill_fluency_medium_duplicate1" label="order3fractions_fluency_symbolic_medium" selection_features="" description="" problem_file="comparisonOrderingFluency_medium.brd" student_interface="comparisonOrdering_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="comparisonDrill_fluency_medium_duplicate2" label="order3fractions_fluency_symbolic_medium" selection_features="" description="" problem_file="comparisonOrderingFluency_medium.brd" student_interface="comparisonOrdering_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="comparisonDrill_fluency_medium_duplicate3" label="order3fractions_fluency_symbolic_medium" selection_features="" description="" problem_file="comparisonOrderingFluency_medium.brd" student_interface="comparisonOrdering_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="comparisonDrill_fluency_hard_duplicate1" label="order3fractions_fluency_symbolic_hard" selection_features="" description="" problem_file="comparisonOrderingFluency_hard.brd" student_interface="comparisonOrdering_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="comparisonDrill_fluency_hard_duplicate2" label="order3fractions_fluency_symbolic_hard" selection_features="" description="" problem_file="comparisonOrderingFluency_hard.brd" student_interface="comparisonOrdering_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="comparisonDrill_fluency_hard_duplicate3" label="order3fractions_fluency_symbolic_hard" selection_features="" description="" problem_file="comparisonOrderingFluency_hard.brd" student_interface="comparisonOrdering_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_fluency_problem1_duplicate1" label="commonDenominator_fluency_symbolic" selection_features="" description="" problem_file="commonDenom_Fluency1.brd" student_interface="common_denominator_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_fluency_problem1_duplicate2" label="commonDenominator_fluency_symbolic" selection_features="" description="" problem_file="commonDenom_Fluency1.brd" student_interface="common_denominator_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_fluency_problem1_duplicate3" label="commonDenominator_fluency_symbolic" selection_features="" description="" problem_file="commonDenom_Fluency1.brd" student_interface="common_denominator_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_fluency_problem2_duplicate1" label="commonDenominator_fluency_symbolic" selection_features="" description="" problem_file="commonDenom_Fluency2.brd" student_interface="common_denominator_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_fluency_problem2_duplicate2" label="commonDenominator_fluency_symbolic" selection_features="" description="" problem_file="commonDenom_Fluency2.brd" student_interface="common_denominator_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_fluency_problem2_duplicate3" label="commonDenominator_fluency_symbolic" selection_features="" description="" problem_file="commonDenom_Fluency2.brd" student_interface="common_denominator_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_fluency_problem3_duplicate1" label="commonDenominator_fluency_symbolic" selection_features="" description="" problem_file="commonDenom_Fluency3.brd" student_interface="common_denominator_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_fluency_problem3_duplicate2" label="commonDenominator_fluency_symbolic" selection_features="" description="" problem_file="commonDenom_Fluency3.brd" student_interface="common_denominator_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_fluency_problem3_duplicate3" label="commonDenominator_fluency_symbolic" selection_features="" description="" problem_file="commonDenom_Fluency3.brd" student_interface="common_denominator_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_fluency_problem4_duplicate1" label="commonDenominator_fluency_symbolic" selection_features="" description="" problem_file="commonDenom_Fluency4.brd" student_interface="common_denominator_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_fluency_problem4_duplicate2" label="commonDenominator_fluency_symbolic" selection_features="" description="" problem_file="commonDenom_Fluency4.brd" student_interface="common_denominator_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_fluency_problem4_duplicate3" label="commonDenominator_fluency_symbolic" selection_features="" description="" problem_file="commonDenom_Fluency4.brd" student_interface="common_denominator_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_fluency_problem5_duplicate1" label="commonDenominator_fluency_symbolic" selection_features="" description="" problem_file="commonDenom_Fluency5.brd" student_interface="common_denominator_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_fluency_problem5_duplicate2" label="commonDenominator_fluency_symbolic" selection_features="" description="" problem_file="commonDenom_Fluency5.brd" student_interface="common_denominator_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_fluency_problem5_duplicate3" label="commonDenominator_fluency_symbolic" selection_features="" description="" problem_file="commonDenom_Fluency5.brd" student_interface="common_denominator_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_3-9" label="fractionReduction_IR_symbolic_maxOneDivision" selection_features="" description="" problem_file="fracReduce_3-9.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_3-12" label="fractionReduction_IR_symbolic_maxOneDivision" selection_features="" description="" problem_file="fracReduce_3-12.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_5-15" label="fractionReduction_IR_symbolic_maxOneDivision" selection_features="" description="" problem_file="fracReduce_5-15.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_7-49" label="fractionReduction_IR_symbolic_maxOneDivision" selection_features="" description="" problem_file="fracReduce_7-49.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_11-22" label="fractionReduction_IR_symbolic_maxOneDivision" selection_features="" description="" problem_file="fracReduce_11-22.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_4-8" label="fractionReduction_IR_symbolic" selection_features="" description="" problem_file="fracReduce_4-8.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_6-9" label="fractionReduction_IR_symbolic" selection_features="" description="" problem_file="fracReduce_6-9.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_8-16" label="fractionReduction_IR_symbolic" selection_features="" description="" problem_file="fracReduce_8-16.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_8-20" label="fractionReduction_IR_symbolic" selection_features="" description="" problem_file="fracReduce_8-20.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_10-30" label="fractionReduction_IR_symbolic" selection_features="" description="" problem_file="fracReduce_10-30.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_16-48" label="fractionReduction_IR_symbolic" selection_features="" description="" problem_file="fracReduce_16-48.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_16-80" label="fractionReduction_IR_symbolic" selection_features="" description="" problem_file="fracReduce_16-80.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_18-90" label="fractionReduction_IR_symbolic" selection_features="" description="" problem_file="fracReduce_18-90.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_20-90" label="fractionReduction_IR_symbolic" selection_features="" description="" problem_file="fracReduce_20-90.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_24-60" label="fractionReduction_IR_symbolic" selection_features="" description="" problem_file="fracReduce_24-60.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_27-36" label="fractionReduction_IR_symbolic" selection_features="" description="" problem_file="fracReduce_27-36.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_27-81" label="fractionReduction_IR_symbolic" selection_features="" description="" problem_file="fracReduce_27-81.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_28-42" label="fractionReduction_IR_symbolic" selection_features="" description="" problem_file="fracReduce_28-42.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_32-96" label="fractionReduction_IR_symbolic" selection_features="" description="" problem_file="fracReduce_32-96.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_36-48" label="fractionReduction_IR_symbolic" selection_features="" description="" problem_file="fracReduce_36-48.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_40_120" label="fractionReduction_IR_symbolic" selection_features="" description="" problem_file="fracReduce_40-120.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_48-72" label="fractionReduction_IR_symbolic" selection_features="" description="" problem_file="fracReduce_48-72.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="fractionReduction_IR_56-140" label="fractionReduction_IR_symbolic" selection_features="" description="" problem_file="fracReduce_56-140.brd" student_interface="fraction_reduction_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_fluency_problem1_duplicate1" label="addition_fluency_symbolic" selection_features="" description="" problem_file="fracAdd1.brd" student_interface="Addition_Fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_fluency_problem1_duplicate2" label="addition_fluency_symbolic" selection_features="" description="" problem_file="fracAdd1.brd" student_interface="Addition_Fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_fluency_problem1_duplicate3" label="addition_fluency_symbolic" selection_features="" description="" problem_file="fracAdd1.brd" student_interface="Addition_Fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_fluency_problem2_duplicate1" label="addition_fluency_symbolic" selection_features="" description="" problem_file="fracAdd2.brd" student_interface="Addition_Fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_fluency_problem2_duplicate2" label="addition_fluency_symbolic" selection_features="" description="" problem_file="fracAdd2.brd" student_interface="Addition_Fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_fluency_problem2_duplicate3" label="addition_fluency_symbolic" selection_features="" description="" problem_file="fracAdd2.brd" student_interface="Addition_Fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_fluency_problem3_duplicate1" label="addition_fluency_symbolic" selection_features="" description="" problem_file="fracAdd3.brd" student_interface="Addition_Fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_fluency_problem3_duplicate2" label="addition_fluency_symbolic" selection_features="" description="" problem_file="fracAdd3.brd" student_interface="Addition_Fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_fluency_problem3_duplicate3" label="addition_fluency_symbolic" selection_features="" description="" problem_file="fracAdd3.brd" student_interface="Addition_Fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_fluency_problem4_duplicate1" label="addition_fluency_symbolic" selection_features="" description="" problem_file="fracAdd4.brd" student_interface="Addition_Fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_fluency_problem4_duplicate2" label="addition_fluency_symbolic" selection_features="" description="" problem_file="fracAdd4.brd" student_interface="Addition_Fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_fluency_problem4_duplicate3" label="addition_fluency_symbolic" selection_features="" description="" problem_file="fracAdd4.brd" student_interface="Addition_Fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_fluency_problem5_duplicate1" label="addition_fluency_symbolic" selection_features="" description="" problem_file="fracAdd5.brd" student_interface="Addition_Fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_fluency_problem5_duplicate2" label="addition_fluency_symbolic" selection_features="" description="" problem_file="fracAdd5.brd" student_interface="Addition_Fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_fluency_problem5_duplicate3" label="addition_fluency_symbolic" selection_features="" description="" problem_file="fracAdd5.brd" student_interface="Addition_Fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_fluency_problem6_duplicate1" label="addition_fluency_symbolic" selection_features="" description="" problem_file="fracAdd6.brd" student_interface="Addition_Fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_fluency_problem6_duplicate2" label="addition_fluency_symbolic" selection_features="" description="" problem_file="fracAdd6.brd" student_interface="Addition_Fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_fluency_problem6_duplicate3" label="addition_fluency_symbolic" selection_features="" description="" problem_file="fracAdd6.brd" student_interface="Addition_Fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_fluency_problem7_duplicate1" label="addition_fluency_symbolic" selection_features="" description="" problem_file="fracAdd7.brd" student_interface="Addition_Fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_fluency_problem7_duplicate2" label="addition_fluency_symbolic" selection_features="" description="" problem_file="fracAdd7.brd" student_interface="Addition_Fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_fluency_problem7_duplicate3" label="addition_fluency_symbolic" selection_features="" description="" problem_file="fracAdd7.brd" student_interface="Addition_Fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_IR_4-6" label="commonDenominator_IR_symbolic" selection_features="" description="" problem_file="commonDenom_IR_4_6.brd" student_interface="common_denominator_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_IR_5-3" label="commonDenominator_IR_symbolic" selection_features="" description="" problem_file="commonDenom_IR_5_3.brd" student_interface="common_denominator_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_IR_6-8" label="commonDenominator_IR_symbolic" selection_features="" description="" problem_file="commonDenom_IR_6_8.brd" student_interface="common_denominator_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_IR_6-12" label="commonDenominator_IR_symbolic" selection_features="" description="" problem_file="commonDenom_IR_6_12.brd" student_interface="common_denominator_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_IR_8-4" label="commonDenominator_IR_symbolic" selection_features="" description="" problem_file="commonDenom_IR_8_4.brd" student_interface="common_denominator_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_IR_12-3" label="commonDenominator_IR_symbolic" selection_features="" description="" problem_file="commonDenom_IR_12_3.brd" student_interface="common_denominator_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="commonDenominator_IR_12-20" label="commonDenominator_IR_symbolic" selection_features="" description="" problem_file="commonDenom_IR_12_20.brd" student_interface="common_denominator_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplicationScaffolded_IR_2-4_6-12" label="crossMultiplication_IR_symbolic_withVisualScaffolding" selection_features="" description="" problem_file="crossMultiplication_2-4_6-12.brd" student_interface="crossMultiplication_IR_scaffold.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplicationScaffolded_IR_3-5_9-15" label="crossMultiplication_IR_symbolic_withVisualScaffolding" selection_features="" description="" problem_file="crossMultiplication_3-5_9-15.brd" student_interface="crossMultiplication_IR_scaffold.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplicationScaffolded_IR_4-5_9-10" label="crossMultiplication_IR_symbolic_withVisualScaffolding" selection_features="" description="" problem_file="crossMultiplication_4-5_9-10.brd" student_interface="crossMultiplication_IR_scaffold.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplicationScaffolded_IR_5-6_3-4" label="crossMultiplication_IR_symbolic_withVisualScaffolding" selection_features="" description="" problem_file="crossMultiplication_5-6_3-4.brd" student_interface="crossMultiplication_IR_scaffold.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplicationScaffolded_IR_7-9_17-24" label="crossMultiplication_IR_symbolic_withVisualScaffolding" selection_features="" description="" problem_file="crossMultiplication_7-9_17-24.brd" student_interface="crossMultiplication_IR_scaffold.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplicationScaffolded_IR_17-18_19-20" label="crossMultiplication_IR_symbolic_withVisualScaffolding" selection_features="" description="" problem_file="crossMultiplication_17-18_19-20.brd" student_interface="crossMultiplication_IR_scaffold.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplicationUnscaffolded_IR_2-3_7-10" label="crossMultiplication_IR_symbolic_withoutVisualScaffolding" selection_features="" description="" problem_file="crossMultiplication_2-3_7-10.brd" student_interface="crossMultiplication_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplicationUnscaffolded_IR_3-7_3-8" label="crossMultiplication_IR_symbolic_withoutVisualScaffolding" selection_features="" description="" problem_file="crossMultiplication_3-7_3-8.brd" student_interface="crossMultiplication_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplicationUnscaffolded_IR_5-6_7-8" label="crossMultiplication_IR_symbolic_withoutVisualScaffolding" selection_features="" description="" problem_file="crossMultiplication_5-6_7-8.brd" student_interface="crossMultiplication_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplicationUnscaffolded_IR_5-9_4-9" label="crossMultiplication_IR_symbolic_withoutVisualScaffolding" selection_features="" description="" problem_file="crossMultiplication_5-9_4-9.brd" student_interface="crossMultiplication_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplicationUnscaffolded_IR_7-12_5-8" label="crossMultiplication_IR_symbolic_withoutVisualScaffolding" selection_features="" description="" problem_file="crossMultiplication_7-12_5-8.brd" student_interface="crossMultiplication_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplicationUnscaffolded_IR_5-12_7-18" label="crossMultiplication_IR_symbolic_withoutVisualScaffolding" selection_features="" description="" problem_file="crossMultiplication_5-12_7-18.brd" student_interface="crossMultiplication_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="crossMultiplicationUnscaffolded_IR_20-24_10-12" label="crossMultiplication_IR_symbolic_withoutVisualScaffolding" selection_features="" description="" problem_file="crossMultiplication_20-24_10-12.brd" student_interface="crossMultiplication_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="equivalentFractionsNL_IR_03_1" label="equivalentFractions_IR_numberline" selection_features="" description="" problem_file="equivalence_IR_03_1.brd" student_interface="equivalence_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="equivalentFractionsNL_IR_04_2" label="equivalentFractions_IR_numberline" selection_features="" description="" problem_file="equivalence_IR_04_2.brd" student_interface="equivalence_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="equivalentFractionsNL_IR_06_1" label="equivalentFractions_IR_numberline" selection_features="" description="" problem_file="equivalence_IR_06_1.brd" student_interface="equivalence_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="equivalentFractionsNL_IR_07_2" label="equivalentFractions_IR_numberline" selection_features="" description="" problem_file="equivalence_IR_07_2.brd" student_interface="equivalence_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="equivalentFractionsNL_IR_08_2" label="equivalentFractions_IR_numberline" selection_features="" description="" problem_file="equivalence_IR_08_2.brd" student_interface="equivalence_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="equivalentFractionsNL_IR_09_1" label="equivalentFractions_IR_numberline" selection_features="" description="" problem_file="equivalence_IR_09_1.brd" student_interface="equivalence_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="equivalentFractionsNL_IR_10_2" label="equivalentFractions_IR_numberline" selection_features="" description="" problem_file="equivalence_IR_10_2.brd" student_interface="equivalence_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractionsNL_IR_01tv" label="estimatingFractions_IR_numberline" selection_features="" description="" problem_file="estimating_IR_01tv.brd" student_interface="estimationNaming_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractionsNL_IR_02tv" label="estimatingFractions_IR_numberline" selection_features="" description="" problem_file="estimating_IR_02tv.brd" student_interface="estimationNaming_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractionsNL_IR_03football" label="estimatingFractions_IR_numberline" selection_features="" description="" problem_file="estimating_IR_03football.brd" student_interface="estimationNaming_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractionsNL_IR_04president" label="estimatingFractions_IR_numberline" selection_features="" description="" problem_file="estimating_IR_04president.brd" student_interface="estimationNaming_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractionsNL_IR_05music" label="estimatingFractions_IR_numberline" selection_features="" description="" problem_file="estimating_IR_05music.brd" student_interface="estimationNaming_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractionsNL_IR_06boyschool" label="estimatingFractions_IR_numberline" selection_features="" description="" problem_file="estimating_IR_06boyschool.brd" student_interface="estimationNaming_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractionsNL_IR_07tomato" label="estimatingFractions_IR_numberline" selection_features="" description="" problem_file="estimating_IR_07tomato.brd" student_interface="estimationNaming_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractionsNL_IR_08bowl" label="estimatingFractions_IR_numberline" selection_features="" description="" problem_file="estimating_IR_08bowl.brd" student_interface="estimationNaming_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractionsNL_IR_09fence" label="estimatingFractions_IR_numberline" selection_features="" description="" problem_file="estimating_IR_09fence.brd" student_interface="estimationNaming_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractionsNL_IR_10highlighters" label="estimatingFractions_IR_numberline" selection_features="" description="" problem_file="estimating_IR_10highlighters.brd" student_interface="estimationNaming_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="makingFractionsNL_IR_03summerBooks" label="makingFractions_IR_numberline" selection_features="" description="" problem_file="makingIdentifying_IR_03summerBooks.brd" student_interface="makingIdentification_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="makingFractionsNL_IR_04soccerSeason" label="makingFractions_IR_numberline" selection_features="" description="" problem_file="makingIdentifying_IR_04soccerSeason.brd" student_interface="makingIdentification_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="makingFractionsNL_IR_05flu" label="makingFractions_IR_numberline" selection_features="" description="" problem_file="makingIdentifying_IR_05flu.brd" student_interface="makingIdentification_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="makingFractionsNL_IR_06lemonade" label="makingFractions_IR_numberline" selection_features="" description="" problem_file="makingIdentifying_IR_06lemonade.brd" student_interface="makingIdentification_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="makingFractionsNL_IR_07pizza" label="makingFractions_IR_numberline" selection_features="" description="" problem_file="makingIdentifying_IR_07pizza.brd" student_interface="makingIdentification_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="makingFractionsNL_IR_08dentists" label="makingFractions_IR_numberline" selection_features="" description="" problem_file="makingIdentifying_IR_08dentists.brd" student_interface="makingIdentification_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="makingFractionsNL_IR_09mathCompetition" label="makingFractions_IR_numberline" selection_features="" description="" problem_file="makingIdentifying_IR_09mathCompetition.brd" student_interface="makingIdentification_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="makingFractionsNL_IR_10children" label="makingFractions_IR_numberline" selection_features="" description="" problem_file="makingIdentifying_IR_10children.brd" student_interface="makingIdentification_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="makingFractionsNL_IR_11project" label="makingFractions_IR_numberline" selection_features="" description="" problem_file="makingIdentifying_IR_11project.brd" student_interface="makingIdentification_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="namingFractionsNL_IR_7-9_7-9" label="namingFractions_IR_numberline" selection_features="" description="" problem_file="namingNL_IR_7-9_comp3.brd" student_interface="nameNL_comp3_7-9.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="orderingFractionsNL_IR_03chain" label="orderingFractions_IR_numberline" selection_features="" description="" problem_file="ordering_IR_03chain.brd" student_interface="ordering_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="orderingFractionsNL_IR_04school" label="orderingFractions_IR_numberline" selection_features="" description="" problem_file="ordering_IR_04school.brd" student_interface="ordering_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="orderingFractionsNL_IR_05height" label="orderingFractions_IR_numberline" selection_features="" description="" problem_file="ordering_IR_05height.brd" student_interface="ordering_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="orderingFractionsNL_IR_06fence" label="orderingFractions_IR_numberline" selection_features="" description="" problem_file="ordering_IR_06fence.brd" student_interface="ordering_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="orderingFractionsNL_IR_07sandwich" label="orderingFractions_IR_numberline" selection_features="" description="" problem_file="ordering_IR_07sandwich.brd" student_interface="ordering_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="orderingFractionsNL_IR_08swim" label="orderingFractions_IR_numberline" selection_features="" description="" problem_file="ordering_IR_08swim.brd" student_interface="ordering_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="orderingFractionsNL_IR_09pie" label="orderingFractions_IR_numberline" selection_features="" description="" problem_file="ordering_IR_09pie.brd" student_interface="ordering_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="orderingFractionsNL_IR_10homework" label="orderingFractions_IR_numberline" selection_features="" description="" problem_file="ordering_IR_10homework.brd" student_interface="ordering_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="orderingFractionsNL_IR_11pizza" label="orderingFractions_IR_numberline" selection_features="" description="" problem_file="ordering_IR_11pizza.brd" student_interface="ordering_IR.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_IR_symbolic_sameDenom_problem_1" label="addition_IR_symbolic_sameDenom" selection_features="" description="" problem_file="T1-13plus13.brd" student_interface="FractAddition_T1andT2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_IR_symbolic_sameDenom_problem_2" label="addition_IR_symbolic_sameDenom" selection_features="" description="" problem_file="T1-14plus14.brd" student_interface="FractAddition_T1andT2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_IR_symbolic_sameDenom_problem_3" label="addition_IR_symbolic_sameDenom" selection_features="" description="" problem_file="T1-38plus48.brd" student_interface="FractAddition_T1andT2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_IR_symbolic_sameDenom_problem_4" label="addition_IR_symbolic_sameDenom" selection_features="" description="" problem_file="T1-59plus19.brd" student_interface="FractAddition_T1andT2.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_IR_problem_1-6_6-18" label="addition_IR_symbolic_oneDenomMult" selection_features="" description="" problem_file="T4-16plus618.brd" student_interface="FractAddition_T4andT5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_IR_problem_1-8_2-4" label="addition_IR_symbolic_oneDenomMult" selection_features="" description="" problem_file="T4-18plus24.brd" student_interface="FractAddition_T4andT5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_IR_problem_1-2_3-8" label="addition_IR_symbolic_oneDenomMult" selection_features="" description="" problem_file="T4-12plus38.brd" student_interface="FractAddition_T4andT5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_IR_problem_5-12_1-3" label="addition_IR_symbolic_oneDenomMult" selection_features="" description="" problem_file="T4-512plus13.brd" student_interface="FractAddition_T4andT5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_IR_problem_4-15_2-5" label="addition_IR_symbolic_oneDenomMult" selection_features="" description="" problem_file="T4-415plus25.brd" student_interface="FractAddition_T4andT5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_IR_problem_1-6_2-4" label="addition_IR_symbolic_unrelatedDenom" selection_features="" description="" problem_file="T4-16plus24.brd" student_interface="FractAddition_T4andT5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_IR_problem_1-2_3-7" label="addition_IR_symbolic_unrelatedDenom" selection_features="" description="" problem_file="T4-12plus37.brd" student_interface="FractAddition_T4andT5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_IR_problem_3-7_1-4" label="addition_IR_symbolic_unrelatedDenom" selection_features="" description="" problem_file="T4-37plus14.brd" student_interface="FractAddition_T4andT5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_IR_problem_3-7_1-5" label="addition_IR_symbolic_unrelatedDenom" selection_features="" description="" problem_file="T4-37plus15.brd" student_interface="FractAddition_T4andT5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_IR_problem_4-9_3-6" label="addition_IR_symbolic_unrelatedDenom" selection_features="" description="" problem_file="T4-49plus36.brd" student_interface="FractAddition_T4andT5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_IR_problem_1-4_2-5" label="addition_IR_symbolic_unrelatedDenom" selection_features="" description="" problem_file="T4-14plus25.brd" student_interface="FractAddition_T4andT5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_IR_problem_3-7_1-3" label="addition_IR_symbolic_unrelatedDenom" selection_features="" description="" problem_file="T4-37plus13.brd" student_interface="FractAddition_T4andT5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_IR_problem_3-10_2-9" label="addition_IR_symbolic_unrelatedDenom" selection_features="" description="" problem_file="T4-310plus29.brd" student_interface="FractAddition_T4andT5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_IR_problem_5-8_1-6" label="addition_IR_symbolic_unrelatedDenom" selection_features="" description="" problem_file="T4-58plus16.brd" student_interface="FractAddition_T4andT5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="addition_IR_problem_2-5_2-6" label="addition_IR_symbolic_unrelatedDenom" selection_features="" description="" problem_file="T4-25plus26.brd" student_interface="FractAddition_T4andT5.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_1_duplicate1" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_1-4.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_1_duplicate2" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_1-4.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_1_duplicate3" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_1-4.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_2_duplicate1" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_3-4.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_2_duplicate2" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_3-4.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_2_duplicate3" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_3-4.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_3_duplicate1" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_3-5.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_3_duplicate2" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_3-5.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_3_duplicate3" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_3-5.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_4_duplicate1" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_3-6.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_4_duplicate2" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_3-6.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_4_duplicate3" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_3-6.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_5_duplicate1" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_5-6.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_5_duplicate2" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_5-6.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_5_duplicate3" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_5-6.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_6_duplicate1" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_5-7.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_6_duplicate2" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_5-7.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_6_duplicate3" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_5-7.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_7_duplicate1" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_5-10.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_7_duplicate2" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_5-10.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_7_duplicate3" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_5-10.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_8_duplicate1" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_6-8.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_8_duplicate2" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_6-8.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_8_duplicate3" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_6-8.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_9_duplicate1" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_7-10.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_9_duplicate2" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_7-10.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_9_duplicate3" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_7-10.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_10_duplicate1" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_9-10.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_10_duplicate2" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_9-10.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 	 <Problem name="estimatingFractions_fluency_10_duplicate3" label="estimatingFractions_fluency_numberline" selection_features="" description="" problem_file="estimatingFluency_9-10.brd" student_interface="estimationNaming_fluency.swf" tutor_flag="tutor"></Problem>
+ 	 </Problems>
+ 	 <ProblemSets>
+ 	 	 <ProblemSet name="Fractions_Adaptive December2014 Part1" label="Fractions Tutor: Part 1" description="Fractions_Adaptive" selection_algorithm="prerequisites" max_count="1000" max_repeat="1" initial_sequence="0">
+ 	 	 	 <Problems>
+ 	 	 	 	 <Problem name="naming_SM_problem1"/>
+ 	 	 	 	 <Problem name="naming_SM_problem3"/>
+ 	 	 	 	 <Problem name="naming_SM_problem5"/>
+ 	 	 	 	 <Problem name="naming_SM_problem7"/>
+ 	 	 	 	 <Problem name="makingFractionsNL_IR_01watermelon"/>
+ 	 	 	 	 <Problem name="makingFractionsNL_IR_02watermelon"/>
+ 	 	 	 	 <Problem name="namingFractionsNL_IR_2-3_2-5"/>
+ 	 	 	 	 <Problem name="namingFractionsNL_IR_3-5_3-7"/>
+ 	 	 	 	 <Problem name="equivalentFractionsNL_IR_01_1"/>
+ 	 	 	 	 <Problem name="equivalentFractionsNL_IR_02_2"/>
+ 	 	 	 	 <Problem name="addition_SM_problem1"/>
+ 	 	 	 	 <Problem name="reducingFractions_SM_problem1"/>
+ 	 	 	 	 <Problem name="commonDenominator_SM_problem1"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_2-4"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_2-6"/>
+ 	 	 	 	 <Problem name="commonDenominator_IR_4-3"/>
+ 	 	 	 	 <Problem name="commonDenominator_IR_4-5"/>
+ 	 	 	 	 <Problem name="addition_SM_problem2"/>
+ 	 	 	 	 <Problem name="addition_IR_problem_1-6_2-3"/>
+ 	 	 	 	 <Problem name="addition_IR_problem_3-8_1-16"/>
+ 	 	 	 	 <Problem name="crossMultiplicationScaffolded_IR_1-6_1-5"/>
+ 	 	 	 	 <Problem name="crossMultiplicationScaffolded_IR_2-3_5-8"/>
+ 	 	 	 	 <Problem name="addition_SM_problem4"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem3"/>
+ 	 	 	 	 <Problem name="orderingFractionsNL_IR_01book"/>
+ 	 	 	 	 <Problem name="orderingFractionsNL_IR_02cheese"/>
+ 	 	 	 </Problems>
+ 	 	 <Skills></Skills><Categories></Categories></ProblemSet>
+ 	 	 <ProblemSet name="Fractions_Adaptive December2014 Part2" label="Fractions Tutor: Part 2" description="Fractions_Adaptive" selection_algorithm="prerequisites" max_count="1000" max_repeat="1" initial_sequence="0">
+ 	 	 	 <Problems>
+ 	 	 	 	 <Problem name="addition_SM_problem3_duplicate1"/>
+ 	 	 	 	 <Problem name="addition_SM_problem3_duplicate2"/>
+ 	 	 	 	 <Problem name="addition_SM_problem3_duplicate3"/>
+ 	 	 	 	 <Problem name="addition_SM_problem3_duplicate4"/>
+ 	 	 	 	 <Problem name="addition_SM_problem3_duplicate5"/>
+ 	 	 	 	 <Problem name="addition_SM_problem3_duplicate6"/>
+ 	 	 	 	 <Problem name="addition_SM_problem3_duplicate7"/>
+ 	 	 	 	 <Problem name="addition_SM_problem3_duplicate8"/>
+ 	 	 	 	 <Problem name="addition_SM_problem3_duplicate9"/>
+ 	 	 	 	 <Problem name="addition_SM_problem3_duplicate10"/>
+ 	 	 	 	 <Problem name="addition_SM_problem3_duplicate11"/>
+ 	 	 	 	 <Problem name="addition_SM_problem3_duplicate12"/>
+ 	 	 	 	 <Problem name="addition_SM_problem3_duplicate13"/>
+ 	 	 	 	 <Problem name="addition_SM_problem3_duplicate14"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate1"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate2"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate3"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate4"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate5"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate6"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate7"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate8"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate9"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate10"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate11"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate12"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate13"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem1_duplicate14"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate1"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate2"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate3"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate4"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate5"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate6"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate7"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate8"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate9"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate10"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate11"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate12"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate13"/>
+ 	 	 	 	 <Problem name="crossMultiplication_SM_problem2_duplicate14"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem5_duplicate1"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem5_duplicate2"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem5_duplicate3"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem5_duplicate4"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem5_duplicate5"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem5_duplicate6"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem5_duplicate7"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem5_duplicate8"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem5_duplicate9"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem5_duplicate10"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem5_duplicate11"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem5_duplicate12"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem5_duplicate13"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem5_duplicate14"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem6_duplicate1"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem6_duplicate2"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem6_duplicate3"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem6_duplicate4"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem6_duplicate5"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem6_duplicate6"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem6_duplicate7"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem6_duplicate8"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem6_duplicate9"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem6_duplicate10"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem6_duplicate11"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem6_duplicate12"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem6_duplicate13"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem6_duplicate14"/>
+ 	 	 	 	 <Problem name="reducingFractions_SM_problem2_duplicate1"/>
+ 	 	 	 	 <Problem name="reducingFractions_SM_problem2_duplicate2"/>
+ 	 	 	 	 <Problem name="reducingFractions_SM_problem2_duplicate3"/>
+ 	 	 	 	 <Problem name="reducingFractions_SM_problem2_duplicate4"/>
+ 	 	 	 	 <Problem name="reducingFractions_SM_problem2_duplicate5"/>
+ 	 	 	 	 <Problem name="reducingFractions_SM_problem2_duplicate6"/>
+ 	 	 	 	 <Problem name="reducingFractions_SM_problem2_duplicate7"/>
+ 	 	 	 	 <Problem name="reducingFractions_SM_problem2_duplicate8"/>
+ 	 	 	 	 <Problem name="reducingFractions_SM_problem2_duplicate9"/>
+ 	 	 	 	 <Problem name="reducingFractions_SM_problem2_duplicate10"/>
+ 	 	 	 	 <Problem name="reducingFractions_SM_problem2_duplicate11"/>
+ 	 	 	 	 <Problem name="reducingFractions_SM_problem2_duplicate12"/>
+ 	 	 	 	 <Problem name="reducingFractions_SM_problem2_duplicate13"/>
+ 	 	 	 	 <Problem name="reducingFractions_SM_problem2_duplicate14"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem1_duplicate1"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem1_duplicate2"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem1_duplicate3"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem1_duplicate4"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem1_duplicate5"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem1_duplicate6"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem1_duplicate7"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem1_duplicate8"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem1_duplicate9"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem1_duplicate10"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem1_duplicate11"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem1_duplicate12"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem1_duplicate13"/>
+ 	 	 	 	 <Problem name="numberLine_SM_problem1_duplicate14"/>
+ 	 	 	 	 <Problem name="comparisonDrill_fluency_easy_duplicate1"/>
+ 	 	 	 	 <Problem name="comparisonDrill_fluency_easy_duplicate2"/>
+ 	 	 	 	 <Problem name="comparisonDrill_fluency_easy_duplicate3"/>
+ 	 	 	 	 <Problem name="comparisonDrill_fluency_medium_duplicate1"/>
+ 	 	 	 	 <Problem name="comparisonDrill_fluency_medium_duplicate2"/>
+ 	 	 	 	 <Problem name="comparisonDrill_fluency_medium_duplicate3"/>
+ 	 	 	 	 <Problem name="comparisonDrill_fluency_hard_duplicate1"/>
+ 	 	 	 	 <Problem name="comparisonDrill_fluency_hard_duplicate2"/>
+ 	 	 	 	 <Problem name="comparisonDrill_fluency_hard_duplicate3"/>
+ 	 	 	 	 <Problem name="commonDenominator_fluency_problem1_duplicate1"/>
+ 	 	 	 	 <Problem name="commonDenominator_fluency_problem1_duplicate2"/>
+ 	 	 	 	 <Problem name="commonDenominator_fluency_problem1_duplicate3"/>
+ 	 	 	 	 <Problem name="commonDenominator_fluency_problem2_duplicate1"/>
+ 	 	 	 	 <Problem name="commonDenominator_fluency_problem2_duplicate2"/>
+ 	 	 	 	 <Problem name="commonDenominator_fluency_problem2_duplicate3"/>
+ 	 	 	 	 <Problem name="commonDenominator_fluency_problem3_duplicate1"/>
+ 	 	 	 	 <Problem name="commonDenominator_fluency_problem3_duplicate2"/>
+ 	 	 	 	 <Problem name="commonDenominator_fluency_problem3_duplicate3"/>
+ 	 	 	 	 <Problem name="commonDenominator_fluency_problem4_duplicate1"/>
+ 	 	 	 	 <Problem name="commonDenominator_fluency_problem4_duplicate2"/>
+ 	 	 	 	 <Problem name="commonDenominator_fluency_problem4_duplicate3"/>
+ 	 	 	 	 <Problem name="commonDenominator_fluency_problem5_duplicate1"/>
+ 	 	 	 	 <Problem name="commonDenominator_fluency_problem5_duplicate2"/>
+ 	 	 	 	 <Problem name="commonDenominator_fluency_problem5_duplicate3"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_3-9"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_3-12"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_5-15"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_7-49"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_11-22"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_4-8"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_6-9"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_8-16"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_8-20"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_10-30"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_16-48"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_16-80"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_18-90"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_20-90"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_24-60"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_27-36"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_27-81"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_28-42"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_32-96"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_36-48"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_40_120"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_48-72"/>
+ 	 	 	 	 <Problem name="fractionReduction_IR_56-140"/>
+ 	 	 	 	 <Problem name="addition_fluency_problem1_duplicate1"/>
+ 	 	 	 	 <Problem name="addition_fluency_problem1_duplicate2"/>
+ 	 	 	 	 <Problem name="addition_fluency_problem1_duplicate3"/>
+ 	 	 	 	 <Problem name="addition_fluency_problem2_duplicate1"/>
+ 	 	 	 	 <Problem name="addition_fluency_problem2_duplicate2"/>
+ 	 	 	 	 <Problem name="addition_fluency_problem2_duplicate3"/>
+ 	 	 	 	 <Problem name="addition_fluency_problem3_duplicate1"/>
+ 	 	 	 	 <Problem name="addition_fluency_problem3_duplicate2"/>
+ 	 	 	 	 <Problem name="addition_fluency_problem3_duplicate3"/>
+ 	 	 	 	 <Problem name="addition_fluency_problem4_duplicate1"/>
+ 	 	 	 	 <Problem name="addition_fluency_problem4_duplicate2"/>
+ 	 	 	 	 <Problem name="addition_fluency_problem4_duplicate3"/>
+ 	 	 	 	 <Problem name="addition_fluency_problem5_duplicate1"/>
+ 	 	 	 	 <Problem name="addition_fluency_problem5_duplicate2"/>
+ 	 	 	 	 <Problem name="addition_fluency_problem5_duplicate3"/>
+ 	 	 	 	 <Problem name="addition_fluency_problem6_duplicate1"/>
+ 	 	 	 	 <Problem name="addition_fluency_problem6_duplicate2"/>
+ 	 	 	 	 <Problem name="addition_fluency_problem6_duplicate3"/>
+ 	 	 	 	 <Problem name="addition_fluency_problem7_duplicate1"/>
+ 	 	 	 	 <Problem name="addition_fluency_problem7_duplicate2"/>
+ 	 	 	 	 <Problem name="addition_fluency_problem7_duplicate3"/>
+ 	 	 	 	 <Problem name="commonDenominator_IR_4-6"/>
+ 	 	 	 	 <Problem name="commonDenominator_IR_5-3"/>
+ 	 	 	 	 <Problem name="commonDenominator_IR_6-8"/>
+ 	 	 	 	 <Problem name="commonDenominator_IR_6-12"/>
+ 	 	 	 	 <Problem name="commonDenominator_IR_8-4"/>
+ 	 	 	 	 <Problem name="commonDenominator_IR_12-3"/>
+ 	 	 	 	 <Problem name="commonDenominator_IR_12-20"/>
+ 	 	 	 	 <Problem name="crossMultiplicationScaffolded_IR_2-4_6-12"/>
+ 	 	 	 	 <Problem name="crossMultiplicationScaffolded_IR_3-5_9-15"/>
+ 	 	 	 	 <Problem name="crossMultiplicationScaffolded_IR_4-5_9-10"/>
+ 	 	 	 	 <Problem name="crossMultiplicationScaffolded_IR_5-6_3-4"/>
+ 	 	 	 	 <Problem name="crossMultiplicationScaffolded_IR_7-9_17-24"/>
+ 	 	 	 	 <Problem name="crossMultiplicationScaffolded_IR_17-18_19-20"/>
+ 	 	 	 	 <Problem name="crossMultiplicationUnscaffolded_IR_2-3_7-10"/>
+ 	 	 	 	 <Problem name="crossMultiplicationUnscaffolded_IR_3-7_3-8"/>
+ 	 	 	 	 <Problem name="crossMultiplicationUnscaffolded_IR_5-6_7-8"/>
+ 	 	 	 	 <Problem name="crossMultiplicationUnscaffolded_IR_5-9_4-9"/>
+ 	 	 	 	 <Problem name="crossMultiplicationUnscaffolded_IR_7-12_5-8"/>
+ 	 	 	 	 <Problem name="crossMultiplicationUnscaffolded_IR_5-12_7-18"/>
+ 	 	 	 	 <Problem name="crossMultiplicationUnscaffolded_IR_20-24_10-12"/>
+ 	 	 	 	 <Problem name="equivalentFractionsNL_IR_03_1"/>
+ 	 	 	 	 <Problem name="equivalentFractionsNL_IR_04_2"/>
+ 	 	 	 	 <Problem name="equivalentFractionsNL_IR_06_1"/>
+ 	 	 	 	 <Problem name="equivalentFractionsNL_IR_07_2"/>
+ 	 	 	 	 <Problem name="equivalentFractionsNL_IR_08_2"/>
+ 	 	 	 	 <Problem name="equivalentFractionsNL_IR_09_1"/>
+ 	 	 	 	 <Problem name="equivalentFractionsNL_IR_10_2"/>
+ 	 	 	 	 <Problem name="estimatingFractionsNL_IR_01tv"/>
+ 	 	 	 	 <Problem name="estimatingFractionsNL_IR_02tv"/>
+ 	 	 	 	 <Problem name="estimatingFractionsNL_IR_03football"/>
+ 	 	 	 	 <Problem name="estimatingFractionsNL_IR_04president"/>
+ 	 	 	 	 <Problem name="estimatingFractionsNL_IR_05music"/>
+ 	 	 	 	 <Problem name="estimatingFractionsNL_IR_06boyschool"/>
+ 	 	 	 	 <Problem name="estimatingFractionsNL_IR_07tomato"/>
+ 	 	 	 	 <Problem name="estimatingFractionsNL_IR_08bowl"/>
+ 	 	 	 	 <Problem name="estimatingFractionsNL_IR_09fence"/>
+ 	 	 	 	 <Problem name="estimatingFractionsNL_IR_10highlighters"/>
+ 	 	 	 	 <Problem name="makingFractionsNL_IR_03summerBooks"/>
+ 	 	 	 	 <Problem name="makingFractionsNL_IR_04soccerSeason"/>
+ 	 	 	 	 <Problem name="makingFractionsNL_IR_05flu"/>
+ 	 	 	 	 <Problem name="makingFractionsNL_IR_06lemonade"/>
+ 	 	 	 	 <Problem name="makingFractionsNL_IR_07pizza"/>
+ 	 	 	 	 <Problem name="makingFractionsNL_IR_08dentists"/>
+ 	 	 	 	 <Problem name="makingFractionsNL_IR_09mathCompetition"/>
+ 	 	 	 	 <Problem name="makingFractionsNL_IR_10children"/>
+ 	 	 	 	 <Problem name="makingFractionsNL_IR_11project"/>
+ 	 	 	 	 <Problem name="namingFractionsNL_IR_7-9_7-9"/>
+ 	 	 	 	 <Problem name="orderingFractionsNL_IR_03chain"/>
+ 	 	 	 	 <Problem name="orderingFractionsNL_IR_04school"/>
+ 	 	 	 	 <Problem name="orderingFractionsNL_IR_05height"/>
+ 	 	 	 	 <Problem name="orderingFractionsNL_IR_06fence"/>
+ 	 	 	 	 <Problem name="orderingFractionsNL_IR_07sandwich"/>
+ 	 	 	 	 <Problem name="orderingFractionsNL_IR_08swim"/>
+ 	 	 	 	 <Problem name="orderingFractionsNL_IR_09pie"/>
+ 	 	 	 	 <Problem name="orderingFractionsNL_IR_10homework"/>
+ 	 	 	 	 <Problem name="orderingFractionsNL_IR_11pizza"/>
+ 	 	 	 	 <Problem name="addition_IR_symbolic_sameDenom_problem_1"/>
+ 	 	 	 	 <Problem name="addition_IR_symbolic_sameDenom_problem_2"/>
+ 	 	 	 	 <Problem name="addition_IR_symbolic_sameDenom_problem_3"/>
+ 	 	 	 	 <Problem name="addition_IR_symbolic_sameDenom_problem_4"/>
+ 	 	 	 	 <Problem name="addition_IR_problem_1-6_6-18"/>
+ 	 	 	 	 <Problem name="addition_IR_problem_1-8_2-4"/>
+ 	 	 	 	 <Problem name="addition_IR_problem_1-2_3-8"/>
+ 	 	 	 	 <Problem name="addition_IR_problem_5-12_1-3"/>
+ 	 	 	 	 <Problem name="addition_IR_problem_4-15_2-5"/>
+ 	 	 	 	 <Problem name="addition_IR_problem_1-6_2-4"/>
+ 	 	 	 	 <Problem name="addition_IR_problem_1-2_3-7"/>
+ 	 	 	 	 <Problem name="addition_IR_problem_3-7_1-4"/>
+ 	 	 	 	 <Problem name="addition_IR_problem_3-7_1-5"/>
+ 	 	 	 	 <Problem name="addition_IR_problem_4-9_3-6"/>
+ 	 	 	 	 <Problem name="addition_IR_problem_1-4_2-5"/>
+ 	 	 	 	 <Problem name="addition_IR_problem_3-7_1-3"/>
+ 	 	 	 	 <Problem name="addition_IR_problem_3-10_2-9"/>
+ 	 	 	 	 <Problem name="addition_IR_problem_5-8_1-6"/>
+ 	 	 	 	 <Problem name="addition_IR_problem_2-5_2-6"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_1_duplicate1"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_1_duplicate2"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_1_duplicate3"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_2_duplicate1"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_2_duplicate2"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_2_duplicate3"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_3_duplicate1"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_3_duplicate2"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_3_duplicate3"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_4_duplicate1"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_4_duplicate2"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_4_duplicate3"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_5_duplicate1"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_5_duplicate2"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_5_duplicate3"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_6_duplicate1"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_6_duplicate2"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_6_duplicate3"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_7_duplicate1"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_7_duplicate2"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_7_duplicate3"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_8_duplicate1"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_8_duplicate2"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_8_duplicate3"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_9_duplicate1"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_9_duplicate2"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_9_duplicate3"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_10_duplicate1"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_10_duplicate2"/>
+ 	 	 	 	 <Problem name="estimatingFractions_fluency_10_duplicate3"/>
+ 	 	 	 </Problems>
+ 	 	 <Skills></Skills><Categories></Categories></ProblemSet></ProblemSets><Assets></Assets>
+ </Package>

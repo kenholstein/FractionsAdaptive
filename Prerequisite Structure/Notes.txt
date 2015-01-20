@@ -1,0 +1,10 @@
+FractionsAdaptive: Prerequisite Structure
+=================
+
+* Current scripts (File paths hardcoded into scripts are absolute paths on my machine. These will need to be replaced):
+- package.xml : MathTutor XML file used for the current study (December 2014)
+- packageXMLgenerate.py : script to generate MathTutor XML file from csv files that specify prerequisite structure
+- prereqV5.2.3_pset1.csv : csv that specifies the prerequisite structure for the ‘initial’ problem set (a small subset of all tutored problems, which covers all problem types)
+- prereqV5.2.3_pset2.csv : csv that specifies the prerequisite structure for the ‘full randomization’ problem set (problems are technically presented with no prerequisites within this problem set, but Octav’s prerequisite-randomization algorithm is still used so that we can implement problem re-weighting)
+- visTrajectoriesTwoProbSets_ActivityType.py : visualize simulated student trajectories (color-coded by problems’ activity types) under a given prerequisite structure
+- visTrajectoriesTwoProbSets_ContentType.py : visualize simulated student trajectories (color-coded by problems’ content types) under a given prerequisite structure

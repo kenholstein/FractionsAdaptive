@@ -1,0 +1,10 @@
+FractionsAdaptive: Data Processing
+=================
+
+* Current scripts (File paths hardcoded into scripts are absolute paths on my machine. These will need to be replaced):
+- mergeDataSets.py : merge data from different schools
+- removeProblemReloads.py : remove any duplicate entries for the same problem (generated due to internet connectivity issues)
+- removeIncompletePosttest.py : remove data from students who did not complete all posttest questions
+- GradeJanuaryTests.py : grade pre/post-tests for each student (see script for implicit grading choices)
+
+* Note: This folder may contain some ‘spaghetti code’ at present. Please contact kenneth.holstein@gmail.com if you have any questions or find anything is unclear!
