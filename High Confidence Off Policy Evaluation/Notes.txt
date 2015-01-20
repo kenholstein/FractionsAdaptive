@@ -1,2 +1,18 @@
 FractionsAdaptive: High Confidence Off-Policy Evaluation
 =================
+
+Notes:
+
+General strategy for the subproblem of generating individual trajectory (τj , for j=1,...,[# of students] ) probabilities under both an evaluation/candidate policy [parameterized by] θ and also under our behavior policy θb  (I'm representing the θi's with a single behavior policy θb, and also giving our trajectories subscripts).
+
+Strategy for computing Pr( τj | θb ):
+- Simple approach: sampling without replacement at each timestep, under our prerequisite structure and problem-weighting scheme (parts of the code that generates visualizations of simulated student trajectories could be useful here).
+
+Strategy for computing Pr( τj | θ ):
+- To hand-craft some simple, initial, policies on initial hand-crafted state representations (Sk, for k=1,...,[# of state representations]):  explicitly define a stationary π(a | s) for each s in Sk.
+- Use a validity function V(ht), that maps ht (the action history at timestep t) to the set of valid actions at timestep t (this mapping is fully specified by our prerequisite structure) -- this is similar to an approach described in the Mandel et al, 2014 AAMAS paper. On a given timestep, π(at | st) is 0 for all actions not contained in V(ht). Otherwise, π(at | st) is identical to π(a | s), but normalized.
+
+Other notes:
+- For the purpose of trying Phil Thomas's approach, I'm currently planning to (implicitly) assign zero reward to all timesteps of all student trajectories (i.e. trajectory-length carries no cost). A [0,1]-normalized assessment-based reward measure will be used as the return R(τj).
+- It seems it would be worth starting with heavily abstracted state-action spaces (e.g. activity-type or content-type). 
+- Given the size of our dataset, it may be the case that very few trajectories will match proposed deterministic policies. So, it may also make sense to evaluate stochastic (potentially near-deterministic) policies.
