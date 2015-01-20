@@ -2,6 +2,7 @@ FractionsAdaptive: Prerequisite Structure
 =================
 
 * Current scripts (File paths hardcoded into scripts are absolute paths on my machine. These will need to be replaced):
+
 - package.xml : MathTutor XML file used for the current study (December 2014)
 - packageXMLgenerate.py : script to generate MathTutor XML file from csv files that specify prerequisite structure
 - prereqV5.2.3_pset1.csv : csv that specifies the prerequisite structure for the ‘initial’ problem set (a small subset of all tutored problems, which covers all problem types)
